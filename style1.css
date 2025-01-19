@@ -86,7 +86,7 @@ nav ul li {
     height: 50px;
     display: flex;
     background-color: white;
-    width: 300px;
+     width: 350px; 
     color: black;
     margin: auto;
     justify-content: space-between;
@@ -95,6 +95,8 @@ nav ul li {
     padding: 0 15px;
     position: relative;
     left: -550px;
+    background-image: url("songItem.jpeg");
+    background-size: cover;
 }
 
 .songItem img {
@@ -111,7 +113,7 @@ nav ul li {
 
 .timestamp i {
     cursor: pointer;
-    color: red;
+    color: black;
 }
 
 h1 {
