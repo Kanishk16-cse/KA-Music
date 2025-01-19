@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+    background-color: antiquewhite;
+    background-image: url("music_back.jpeg");
+    background-size: cover;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+.brand img {
+    width: 165px;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: url("backg.jpg");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 11px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    margin: 0 120px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 300px;
+    color: black;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 15px;
+    position: relative;
+    left: -550px;
+}
+
+.songItem img {
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 34px;
+    position: relative;
+    left: -20px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+    color: red;
+}
+
+h1 {
+    position: relative;
+    left: -550px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 12vb;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+
+    .songItem {
+        width: 90%;
+        left: 0;
+    }
+
+    h1 {
+        left: 0;
+    }
+
+    #myProgressBar {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 85%;
+    }
+
+    .songItem {
+        width: 90%;
+        left: 0;
+    }
+
+    h1 {
+        left: 0;
+    }
+
+    #myProgressBar {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .songItem {
+        width: 100%;
+        left: 0;
+    }
+
+    h1 {
+        left: 0;
+    }
+
+    #myProgressBar {
+        width: 80%;
+    }
+
+    .bottom {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .songItem {
+        width: 100%;
+        left: 0;
+    }
+
+    h1 {
+        left: 0;
+    }
+
+    #myProgressBar {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bottom {
+        height: 80px;
+    }
+}
