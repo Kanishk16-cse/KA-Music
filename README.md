@@ -2,6 +2,13 @@
 
       Author -> Kanishk Garg --------------> A B.tech 3rd year student At LNMIIT. 
 
+      About :-
+      • Built a responsive website for playing and managing songs.
+      • Added dynamic song updates and interactive controls.
+      • Designed with HTML, CSS, and JavaScript for a seamless user
+        experience.
+
+
       ----------------------------------------------------------------------------Steps how to execute this website on your system-----------------------------------------------------------------------------------
       Step -> 1 install the vs code editor 
       https://code.visualstudio.com/download  -> download link
